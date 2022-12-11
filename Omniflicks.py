@@ -50,7 +50,7 @@ st.markdown('''
     <style>
 @font-face {
     font-family: 'Showtime';
-    src: url(https://get.fontspace.co/download/font/R9Ke/MTM2NDU0YmIwZWVmNGU4OGI0NzcwNmU4MjgxOTFmNjgudHRm/Showtime-R9Ke.ttf) format('ttf');
+    src: url(file:///Users/ian/opt/anaconda3/envs/nlp_projects/NLP%20Assignments/OmniFlicks/Showtime.ttf) format('ttf');
 }
 
     .showtime{
@@ -58,12 +58,14 @@ st.markdown('''
     }
     </style>
     ''', unsafe_allow_html=True)
+'# OmniFlicks'
 
 # Update sidebar
 updated_sidebar = '''
     <style>
     #stSidebarNav {
     font-family: 'Showtime'
+    src: url(file:///Users/ian/opt/anaconda3/envs/nlp_projects/NLP%20Assignments/OmniFlicks/Showtime.ttf) format('ttf');
     }
     </style>
     '''
