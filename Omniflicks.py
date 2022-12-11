@@ -69,10 +69,10 @@ st.markdown(
 # Update sidebar
 
 updated_sidebar = '''
-    <style>.showtime{
-    #stSidebarNav {
+    <style>
+    #stSidebarNav.showtime {
     font-family: 'Showtime';
-    }}
+    }
     </style>
     '''
     
