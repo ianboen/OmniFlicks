@@ -51,7 +51,8 @@ add_bg_from_local('movie_background.jpeg')
 updated_sidebar = '''
     <style>
     #stSidebarNav {
-    font-family: "Showtime"
+    font-family: "Showtime";
+    src: url(https://www.fontspace.com/showtime-font-f2471)
     }
     </style>
     '''
@@ -60,6 +61,7 @@ st.markdown('''
     <style>
         [data-testid="stSidebarNav"] {
         font-family: 'Showtime';
+        src: url(https://www.fontspace.com/showtime-font-f2471)
         }
         [data-testid="stSidebarNav"]::before {
         content: "OmniFlicks";
