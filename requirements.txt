@@ -8,7 +8,7 @@ kiwisolver==1.4.4
 debugpy==1.6.4
 pyrsistent==0.19.2
 argon2-cffi-bindings==21.2.0
-lz4-c==1.9.3
+#lz4-c==1.9.3
 dav1d==1.0.0
 jpeg==9e
 libsqlite==3.40.0
