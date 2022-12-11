@@ -50,7 +50,7 @@ st.markdown('''
     <style type="text/css">
     @font-face {
         font-family: "Showtime";
-        src: url(https://www.fontspace.com/showtime-font-f2471.ttf) format('truetype');
+        src: url(https://www.fontspace.com/showtime-font-f2471) format('truetype');
 
     }
     p.customfont {
