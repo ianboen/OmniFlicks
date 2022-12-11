@@ -16,4 +16,4 @@ All film metadata used in **OmniFlicks** even from the Kaggle.com dataset comes 
 
 ![image](https://user-images.githubusercontent.com/106556575/206061975-289af154-3e23-4ddb-b31e-7803cfe3c800.png)
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]([https://<your-custom-subdomain>.streamlit.app](https://ianboen-omniflicks-omniflicks-8nd7xl.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ianboen-omniflicks-omniflicks-8nd7xl.streamlit.app)
