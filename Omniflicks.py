@@ -46,32 +46,13 @@ def add_bg_from_local(image_file):
     )
 add_bg_from_local('movie_background.jpeg')
 
-st.markdown(
-        """
-        <style>
-@font-face {
-  font-family: 'Showtime';
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://www.fontspace.com/showtime-font-f2471) format('ttf');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-    
-    .showtime {
-        font-family: 'Showtime'
-    }
-    </style>
 
-    """,
-        unsafe_allow_html=True,
-    )
 
 # Update sidebar
-
 updated_sidebar = '''
     <style>
-    #stSidebarNav.showtime {
-    font-family: 'Showtime';
+    #stSidebarNav {
+    font-family: "Showtime"
     }
     </style>
     '''
@@ -80,7 +61,6 @@ st.markdown('''
     <style>
         [data-testid="stSidebarNav"] {
         font-family: 'Showtime';
-        src: url(https://www.fontspace.com/showtime-font-f2471.ttf) format('truetype')
         }
         [data-testid="stSidebarNav"]::before {
         content: "OmniFlicks";
