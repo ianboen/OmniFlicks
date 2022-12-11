@@ -48,21 +48,24 @@ add_bg_from_local('movie_background.jpeg')
 
 
 # Update sidebar
+
 updated_sidebar = '''
     <style>
     #stSidebarNav {
+    @font-face {
     font-family: "Showtime";
-    src: url(https://www.fontspace.com/showtime-font-f2471)
-    }
+    src: url(https://www.fontspace.com/showtime-font-f2471.ttf) format('truetype');
+    }}
     </style>
     '''
     
 st.markdown('''
     <style>
         [data-testid="stSidebarNav"] {
+        @font-face {
         font-family: 'Showtime';
-        src: url(https://www.fontspace.com/showtime-font-f2471)
-        }
+        src: url(https://www.fontspace.com/showtime-font-f2471.ttf) format('truetype')
+        }}
         [data-testid="stSidebarNav"]::before {
         content: "OmniFlicks";
         margin-left: 20px;
