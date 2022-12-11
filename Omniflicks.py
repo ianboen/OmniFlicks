@@ -9,6 +9,9 @@ import base64
 from sklearn.metrics.pairwise import cosine_similarity
 from PIL import Image
 from streamlit_extras.app_logo import add_logo
+import requests
+
+
 
 #Set initial page configurations
 st.set_page_config(
@@ -56,7 +59,14 @@ updated_sidebar = '''
 st.markdown('''
     <style>
         [data-testid="stSidebarNav"] {
-        font-family: 'Showtime'
+        font-family: 'Showtime';
+        }
+        [data-testid="stSidebarNav"]::before {
+        content: "OmniFlicks";
+        margin-left: 20px;
+        margin-top: 20px;
+        font-size: 30px;
+        position: relative;
         }
     </style>
     ''', unsafe_allow_html=True)
@@ -67,7 +77,7 @@ st.markdown('''
 
 col1, mid, col2 = st.columns([2,1,8])
 with col1:
-    st.image("Omni Reel-80.jpg", width=100)
+    st.image("OmniFlicksLogo.png", width=110)
 
 with col2:
     st.markdown('''
