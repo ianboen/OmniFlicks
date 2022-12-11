@@ -4,7 +4,7 @@ pywavelets==1.4.1
 psutil==5.9.4
 #libthrift==0.15.0
 kiwisolver==1.4.4
-libedit==3.1.20191231
+#libedit==3.1.20191231
 debugpy==1.6.4
 pyrsistent==0.19.2
 argon2-cffi-bindings==21.2.0
