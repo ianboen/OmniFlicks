@@ -46,6 +46,18 @@ def add_bg_from_local(image_file):
     )
 add_bg_from_local('movie_background.jpeg')
 
+<style type="text/css">
+@font-face {
+    font-family: "Showtime";
+    src: url(https://www.fontspace.com/showtime-font-f2471.ttf) format('truetype');
+    
+}
+p.customfont {
+    font-family: "Showtime";
+}
+</style>
+<p class="customfont">OmniFlicks</p>
+
 
 # Update sidebar
 
