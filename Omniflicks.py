@@ -46,13 +46,24 @@ def add_bg_from_local(image_file):
     )
 add_bg_from_local('movie_background.jpeg')
 
+st.markdown('''
+    <style>
+@font-face {
+    font-family: 'Showtime';
+    src: url(https://get.fontspace.co/download/font/R9Ke/MTM2NDU0YmIwZWVmNGU4OGI0NzcwNmU4MjgxOTFmNjgudHRm/Showtime-R9Ke.ttf) format('ttf');
+}
 
+    .showtime{
+        font-family: 'Showtime';
+    }
+    </style>
+    ''', unsafe_allow_html=True)
 
 # Update sidebar
 updated_sidebar = '''
     <style>
     #stSidebarNav {
-    font-family: "Showtime"
+    font-family: 'Showtime'
     }
     </style>
     '''
