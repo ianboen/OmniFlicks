@@ -46,28 +46,33 @@ def add_bg_from_local(image_file):
     )
 add_bg_from_local('movie_background.jpeg')
 
-st.markdown('''
-    <style>
-    @font-face {
-        font-family: "Showtime";
-        src: url(https://github.com/ianboen/OmniFlicks/blob/main/Showtime-R9Ke.ttf) format('truetype');
-
-    }
-    p.customfont {
-        font-family: "Showtime";
+st.markdown(
+        """
+        <style>
+@font-face {
+  font-family: 'Showtime';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://www.fontspace.com/showtime-font-f2471) format('ttf');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+    
+    .showtime {
+        font-family: 'Showtime'
     }
     </style>
-    <p class="customfont">OmniFlicks</p>
-    ''', unsafe_allow_html=True)
+
+    """,
+        unsafe_allow_html=True,
+    )
 
 # Update sidebar
 
 updated_sidebar = '''
-    <style>
+    <style>.showtime{
     #stSidebarNav {
-    font-family: "Showtime";
-    src: url(https://www.fontspace.com/showtime-font-f2471.ttf) format('truetype');
-    }
+    font-family: 'Showtime';
+    }}
     </style>
     '''
     
@@ -97,11 +102,11 @@ with col1:
 
 with col2:
     st.markdown('''
-    <style>.font{
+    <style>.showtime{
         font-size:60px; font-family: 'Showtime'
     }
     </style> ''', unsafe_allow_html=True)
-    st.markdown('<h1 class="font">OmniFlicks</h1>', 
+    st.markdown('<h1 class="showtime">OmniFlicks</h1>', 
                 unsafe_allow_html=True)
 
 st.header('Top 6 movie recommendations based on popular and highly-rated titles')
