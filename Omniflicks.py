@@ -46,19 +46,8 @@ def add_bg_from_local(image_file):
     )
 add_bg_from_local('movie_background.jpeg')
 
-st.markdown('''
-    <style>
-@font-face {
-    font-family: 'Showtime';
-    src: url(file:///Users/ian/opt/anaconda3/envs/nlp_projects/NLP%20Assignments/OmniFlicks/Showtime.ttf) format('ttf');
-}
 
-    .showtime{
-        font-family: 'Showtime';
-    }
-    </style>
-    ''', unsafe_allow_html=True)
-'# OmniFlicks'
+
 
 # Update sidebar
 updated_sidebar = '''
