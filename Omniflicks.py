@@ -47,10 +47,10 @@ def add_bg_from_local(image_file):
 add_bg_from_local('movie_background.jpeg')
 
 st.markdown('''
-    <style type="text/css">
+    <style>
     @font-face {
         font-family: "Showtime";
-        src: url(https://www.fontspace.com/showtime-font-f2471) format('truetype');
+        src: url(https://github.com/ianboen/OmniFlicks/blob/main/Showtime-R9Ke.ttf) format('truetype');
 
     }
     p.customfont {
