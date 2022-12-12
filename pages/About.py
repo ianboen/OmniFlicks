@@ -51,6 +51,15 @@ st.markdown('''
     </style>
     ''', unsafe_allow_html=True)
 
+# Change Overall Font to Zen Dots
+st.write("""
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&effect=shadow-multiple');
+html, body, [class*="css"]  {
+   font-family: 'Zen Dots';
+}
+</style>
+""", unsafe_allow_html=True)
 
 # Add columns with logo and Omniflicks title
 col1, mid, col2 = st.columns([2,1,8])
@@ -60,7 +69,7 @@ with col1:
 with col2:
     st.markdown('''
     <style>.font{
-        font-size:60px; font-family: 'Showtime'
+        font-size:60px; font-family: 'Zen Dots'
     }
     </style> ''', unsafe_allow_html=True)
     st.markdown('<h1 class="font">About OmniFlicks</h1>', 
