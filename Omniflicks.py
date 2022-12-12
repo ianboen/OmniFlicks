@@ -157,7 +157,7 @@ if st.button('Recommend'):
     poster,recommended_movie_titles,recommended_movie_posters,recommended_movie_descriptions = movie_recommender(selected_movie)
     st.markdown('''
     <style>.output_font{
-        font-size:30px; font-family: 'Showtime'
+        font-size:30px; font-family: 'Zen Dots'
     }
     </style> ''', unsafe_allow_html=True)
     st.markdown('<p class="output_font">Selected Movie</p>', 
