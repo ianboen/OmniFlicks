@@ -47,9 +47,6 @@ def add_bg_from_local(image_file):
 add_bg_from_local('movie_background.jpeg')
 
 
-with open('showtime.css') as f:
-    st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
-
 
 # Update sidebar
 updated_sidebar = '''
@@ -77,9 +74,9 @@ st.markdown('''
 
 st.write("""
 <style>
-@import url(''https://fonts.googleapis.com/css2?family=Zen+Dots'');
+@import url('https://fonts.googleapis.com/css2?family=ZenDots');
 html, body, [class*="css"]  {
-   font-family: 'Zen Dots';
+   font-family: 'ZenDots';
 }
 </style>
 """, unsafe_allow_html=True)
