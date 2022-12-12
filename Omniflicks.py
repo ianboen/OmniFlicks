@@ -77,9 +77,9 @@ st.markdown('''
 
 st.write("""
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Fascinate');
+@import url(''https://fonts.googleapis.com/css2?family=Zen+Dots'');
 html, body, [class*="css"]  {
-   font-family: 'Fascinate', cursive;
+   font-family: 'Zen Dots';
 }
 </style>
 """, unsafe_allow_html=True)
