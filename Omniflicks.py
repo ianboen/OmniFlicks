@@ -83,7 +83,7 @@ html, body, [class*="css"]  {
 
 # Add columns with logo and Omniflicks title
 
-col1, mid, col2 = st.columns([2,1,10])
+col1, mid, col2 = st.columns([2,1,12])
 with col1:
     st.image("OmniFlicksLogo.png", width=110)
 
