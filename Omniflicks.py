@@ -72,6 +72,7 @@ st.markdown('''
     </style>
     ''', unsafe_allow_html=True)
 
+#Change Overall Font to Zen Dots
 st.write("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&effect=shadow-multiple');
