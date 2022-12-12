@@ -77,9 +77,9 @@ st.markdown('''
 
 st.write("""
 <style>
-@import url('https://get.fontspace.co/download/font/R9Ke/MTM2NDU0YmIwZWVmNGU4OGI0NzcwNmU4MjgxOTFmNjgudHRm/Showtime-R9Ke.ttf');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate');
 html, body, [class*="css"]  {
-   font-family: 'Showtime';
+   font-family: 'Fascinate', cursive;
 }
 </style>
 """, unsafe_allow_html=True)
