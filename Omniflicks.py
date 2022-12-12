@@ -76,7 +76,7 @@ st.write("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Zen+Dots');
 html, body, [class*="css"]  {
-   font-family: 'Zen+Dots';
+   font-family: 'Zen Dots';
 }
 </style>
 """, unsafe_allow_html=True)
