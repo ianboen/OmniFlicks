@@ -74,9 +74,9 @@ st.markdown('''
 
 st.write("""
 <style>
-@import url('https://fonts.googleapis.com/css2?family=ZenDots');
+@import url('https://fonts.googleapis.com/css2?family=zen-dots');
 html, body, [class*="css"]  {
-   font-family: 'ZenDots';
+   font-family: 'zen-dots';
 }
 </style>
 """, unsafe_allow_html=True)
