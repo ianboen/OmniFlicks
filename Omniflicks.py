@@ -74,7 +74,7 @@ st.markdown('''
 
 st.write("""
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Zen+Dots');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&effect=shadow-multiple');
 html, body, [class*="css"]  {
    font-family: 'Zen Dots';
 }
