@@ -75,7 +75,14 @@ st.markdown('''
     </style>
     ''', unsafe_allow_html=True)
 
-    
+st.write("""
+<style>
+@import url('https://get.fontspace.co/download/font/R9Ke/MTM2NDU0YmIwZWVmNGU4OGI0NzcwNmU4MjgxOTFmNjgudHRm/Showtime-R9Ke.ttf');
+html, body, [class*="css"]  {
+   font-family: 'Showtime';
+}
+</style>
+""", unsafe_allow_html=True)
 
 # Add columns with logo and Omniflicks title
 
